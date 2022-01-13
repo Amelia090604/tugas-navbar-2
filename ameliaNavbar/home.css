@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+   background-image: url('https://picture-origin.rumah123.com/news-content/img/2021/11/10093152/kursi-kayu-cafe-resto.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.banner p{
+    text-align: center;
+    line-height: 100vh;
+    font-size: 50px;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    height: 60px;
+}
+
+nav.logo{
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: white;
+}
